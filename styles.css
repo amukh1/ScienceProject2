@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@700&display=swap');
+
+body {
+    background-color: #1a1a1f;
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.head {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    transition: all 0.5s ease;
+color: white;
+margin-bottom: 75px;
+font-size: 4rem;
+font-style: italic;
+}
+
+.title:hover {
+    color: white;
+    margin-bottom: 75px;
+    font-size: 4.5rem;
+    font-style: italic;
+    }
+
+.subtitle {
+    transition: all 0.5s ease;
+color: white;
+font-size: 2rem;
+font-style: italic;
+margin-bottom: 10px;
+
+}
+
+.subtitle:hover {
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    
+    }
+
+    .content {
+        background-color: #1a1a1f;
+        padding: 50px;
+        /* width: 100%; */
+        height: 70vh;
+    }
+
+    
+       /* width */
+       ::-webkit-scrollbar {
+        width: 0px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+         border-radius: 15px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+    
+.input {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.h {
+    transition: all 0.5s ease;
+    width: 18rem;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+}
