@@ -1,0 +1,13 @@
+body {
+    background-color: #1a1a1f;
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.head {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
