@@ -91,3 +91,16 @@ body {
 .none {
     display: none;
 }
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+
+.dank {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
