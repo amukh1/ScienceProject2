@@ -95,8 +95,9 @@ body {
 @keyframes example {
     0%   {color: red;}
     25%  {color: yellow;}
-    50%  {color: blue;}
-    100% {color: green;}
+    50%  {color: rgb(0, 238, 255);}
+    100% {color: rgb(21, 255, 0);}
+    100% {color: rgb(250, 94, 255);}
   }
 
 .dank {
