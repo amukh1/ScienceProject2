@@ -58,3 +58,23 @@ xhr.send();
 function clear() {
     window.location.reload();
 }
+
+setInterval(iint, 1000);
+
+function start() {
+
+    document.getElementById("numb").innerHTML = document.getElementById('numb').innerHTML - 1
+}
+
+function iint() {
+
+    let numm = document.getElementById("numb").innerHTML - 0
+if(numm != 30 && numm != 0){
+    document.getElementById("numb").innerHTML = document.getElementById("numb").innerHTML - 1
+}
+    
+}
+
+function restart() {
+    document.getElementById("numb").innerHTML = "30";
+}
