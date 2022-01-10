@@ -17,3 +17,12 @@ body {
     font-size: 4rem;
 font-style: italic;
 }
+
+.dog {
+    transition: all 0.5s ease;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+font-style: italic;
+}
